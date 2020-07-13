@@ -14,21 +14,26 @@ ul {
 
 .nav-item  {
     text-align: center;
+    
 }
 
+#nav-link {
+    color: #D8BFD8;
+}
 .navbar-nav {
-    color: blue;
+    color: #ff00ff;
 }
 .blue {
-    font-size: 20px;
-    color: blue;
+    font-size: 25px;
+    color: #967bb6;
+    font-weight: bold;
 }
 .navbar-toggler {
-    background: blue;
+    background: #967bb6;
 }
 
 #sym {
-    color: whitesmoke;
+    color: #E6E6FA;
 }
 
 
@@ -43,14 +48,14 @@ ul {
     font-size: 30px;
     position: absolute;
     top: 80px;
-    color: whitesmoke;
+    color: #E6E6FA;
     z-index: -1;
     padding-left: 30px;
     overflow: hidden;
 }
 
 #frontend {
-    color: blue;
+    color: #D8BFD8;
 }
 .skill {
       position: relative;

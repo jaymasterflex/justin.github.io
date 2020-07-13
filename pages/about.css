@@ -1,6 +1,6 @@
 
 body {
-    font-size: 15pt;
+    font-size: 10pt;
    background: #535353;
    color: wheat;
    }
@@ -14,31 +14,38 @@ body {
    ul {
        background: #535353;
    }
+   #nav-link {
+       color: #D8BFD8;
+   }
+   
    
    .nav-item {
        text-align: center;
    }
    
+   
    .navbar-nav {
-       color: blue;
+       color: #ff00ff;
    }
    
    .blue {
-       font-size: 20px;
-       color: blue;
+       font-size: 25px;
+       color: #967bb6;
+       font-weight: bold;
    }
    
    .navbar-toggler {
-       background: blue;
+       background: #967bb6;
    }
    #sym {
-       color: whitesmoke;
+       color: #E6E6FA;
    }
    
    
    h1 {
        position: absolute;
        top: 50px;
+       color: #E6E6FA;
    }
    
    .abt-img {
@@ -60,7 +67,7 @@ body {
     visibility: hidden;
     width: 120px;
     background-color: black;
-    color: #fff;
+    color: #D8BFD8;
     text-align: center;
     border-radius: 6px;
     padding: 5px 0;
@@ -86,7 +93,7 @@ body {
     visibility: hidden;
     width: 120px;
     background-color: black;
-    color: #fff;
+    color: #D8BFD8;
     text-align: center;
     border-radius: 6px;
     padding: 5px 0;
@@ -112,7 +119,7 @@ body {
     visibility: hidden;
     width: 120px;
     background-color: black;
-    color: #fff;
+    color: #D8BFD8;
     text-align: center;
     border-radius: 6px;
     padding: 5px 0;
@@ -137,7 +144,7 @@ body {
     visibility: hidden;
     width: 120px;
     background-color: black;
-    color: #fff;
+    color: #D8BFD8;
     text-align: center;
     border-radius: 6px;
     padding: 5px 0;
@@ -161,7 +168,7 @@ body {
     visibility: hidden;
     width: 120px;
     background-color: black;
-    color: #fff;
+    color: #D8BFD8;
     text-align: center;
     border-radius: 6px;
     padding: 5px 0;
@@ -189,7 +196,7 @@ body {
     visibility: hidden;
     width: 120px;
     background-color: black;
-    color: #fff;
+    color: #D8BFD8;
     text-align: center;
     border-radius: 6px;
     padding: 5px 0;
@@ -214,7 +221,7 @@ body {
     visibility: hidden;
     width: 120px;
     background-color: black;
-    color: #fff;
+    color: #D8BFD8;
     text-align: center;
     border-radius: 6px;
     padding: 5px 0;
@@ -239,7 +246,7 @@ body {
     visibility: hidden;
     width: 120px;
     background-color: black;
-    color: #fff;
+    color: #D8BFD8;
     text-align: center;
     border-radius: 6px;
     padding: 5px 0;
