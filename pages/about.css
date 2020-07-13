@@ -1,0 +1,254 @@
+
+body {
+    font-size: 15pt;
+   background: #535353;
+   color: wheat;
+   }
+   
+   .navbar {
+       width: 100%;
+       background: #2e3234;
+       z-index: 1;
+   }
+   
+   ul {
+       background: #535353;
+   }
+   
+   .nav-item {
+       text-align: center;
+   }
+   
+   .navbar-nav {
+       color: blue;
+   }
+   
+   .blue {
+       font-size: 20px;
+       color: blue;
+   }
+   
+   .navbar-toggler {
+       background: blue;
+   }
+   #sym {
+       color: whitesmoke;
+   }
+   
+   
+   h1 {
+       position: absolute;
+       top: 50px;
+   }
+   
+   .abt-img {
+       position: absolute;
+       width: 100vw;
+       opacity: 0.2;
+       height: 100vh;
+   }
+   
+.first {
+    position: absolute;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    top: 330px;
+    left: 289px;
+}
+
+.first .badge {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    right: 105%;
+}
+.first:hover .badge {
+    visibility: visible;
+}
+
+.second {
+    position: absolute;
+    top: 150px;
+    left: 289px;
+    border-bottom: 1px dotted black;
+}
+
+.second .badge {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    right: 105%;
+}
+.second:hover .badge {
+    visibility: visible;
+}
+
+.third {
+    position: absolute;
+    top: 350px;
+    left: 59px;
+    border-bottom: 1px dotted black;
+}
+
+.third .badge {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.third:hover .badge {
+    visibility: visible;
+}
+
+.fourth {
+    position: absolute;
+    top: 140px;
+    left: 79px;
+    border-bottom: 1px dotted black;
+}
+
+.fourth .badge {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.fourth:hover .badge {
+    visibility: visible;
+}
+.fifth {
+    position: absolute;
+    top: 222px;
+    left: 233px;
+    border-bottom: 1px dotted black;
+}
+
+.fifth .badge {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+     top: 100%;
+     left: 50%;
+     margin-left: -60px;
+}
+
+.fifth:hover .badge {
+    visibility: visible;
+}
+
+.sixth {
+    position: absolute;
+    top: 320px;
+    left: 89px;
+    border-bottom: 1px dotted black;
+}
+
+.sixth .badge {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.sixth:hover .badge {
+    visibility: visible;
+}
+
+.seventh {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    border-bottom: 1px dotted black;
+}
+
+.seventh .badge {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.seventh:hover .badge {
+    visibility: visible;
+}
+
+.eighth {
+    position: absolute;
+    top: 99px;
+    left: 189px;
+    border-bottom: 1px dotted black;
+}
+
+.eighth .badge {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.eighth:hover .badge {
+    visibility: visible;
+}

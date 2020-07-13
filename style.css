@@ -1,0 +1,77 @@
+body {
+    font-size: 15pt;
+    background: #2e3234;
+    color: wheat;
+}
+
+.navbar {
+    width: 100%;
+    background: #2e3234;
+}
+ul {
+    background: #535353;
+}
+
+.nav-item  {
+    text-align: center;
+}
+
+.navbar-nav {
+    color: blue;
+}
+.blue {
+    font-size: 20px;
+    color: blue;
+}
+.navbar-toggler {
+    background: blue;
+}
+
+#sym {
+    color: whitesmoke;
+}
+
+
+.dp {
+    width: 150px;
+    height: 150px;
+ align-self: center;
+    border-radius: 50%;
+}
+
+.header {
+    font-size: 30px;
+    position: absolute;
+    top: 80px;
+    color: whitesmoke;
+    z-index: -1;
+    padding-left: 30px;
+    overflow: hidden;
+}
+
+#frontend {
+    color: blue;
+}
+.skill {
+      position: relative;
+      top: 200px;
+      left: 0px;
+      z-index: -1;
+      overflow: hidden;
+}
+
+.socials {
+    position: absolute;
+    top: 300px;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.myPic {
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    z-index: -1;
+    overflow: hidden;
+}
