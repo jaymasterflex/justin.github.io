@@ -64,7 +64,7 @@ body {
 }
 
 .first .badge {
-    visibility: hidden;
+    visibility: visible;
     width: 120px;
     background-color: black;
     color: #D8BFD8;
@@ -90,7 +90,7 @@ body {
 }
 
 .second .badge {
-    visibility: hidden;
+    visibility: visible;
     width: 120px;
     background-color: black;
     color: #D8BFD8;
@@ -116,7 +116,7 @@ body {
 }
 
 .third .badge {
-    visibility: hidden;
+    visibility: visible;
     width: 120px;
     background-color: black;
     color: #D8BFD8;
@@ -135,13 +135,13 @@ body {
 
 .fourth {
     position: absolute;
-    top: 140px;
-    left: 79px;
+    top: 430px;
+    left: 19px;
     border-bottom: 1px dotted black;
 }
 
 .fourth .badge {
-    visibility: hidden;
+    visibility: visible;
     width: 120px;
     background-color: black;
     color: #D8BFD8;
@@ -151,7 +151,7 @@ body {
 
     /* Position the tooltip */
     position: absolute;
-    z-index: 1;
+    
 }
 
 .fourth:hover .badge {
@@ -159,13 +159,13 @@ body {
 }
 .fifth {
     position: absolute;
-    top: 222px;
-    left: 233px;
+    top: 300px;
+    left: 203px;
     border-bottom: 1px dotted black;
 }
 
 .fifth .badge {
-    visibility: hidden;
+    visibility: visible;
     width: 120px;
     background-color: black;
     color: #D8BFD8;
@@ -175,10 +175,8 @@ body {
 
     /* Position the tooltip */
     position: absolute;
-    z-index: 1;
-     top: 100%;
-     left: 50%;
-     margin-left: -60px;
+  
+    
 }
 
 .fifth:hover .badge {
@@ -187,13 +185,13 @@ body {
 
 .sixth {
     position: absolute;
-    top: 320px;
+    top: 350px;
     left: 89px;
     border-bottom: 1px dotted black;
 }
 
 .sixth .badge {
-    visibility: hidden;
+    visibility: visible;
     width: 120px;
     background-color: black;
     color: #D8BFD8;
@@ -203,7 +201,7 @@ body {
 
     /* Position the tooltip */
     position: absolute;
-    z-index: 1;
+    
 }
 
 .sixth:hover .badge {
@@ -218,7 +216,7 @@ body {
 }
 
 .seventh .badge {
-    visibility: hidden;
+    visibility: visible;
     width: 120px;
     background-color: black;
     color: #D8BFD8;
@@ -238,12 +236,12 @@ body {
 .eighth {
     position: absolute;
     top: 99px;
-    left: 189px;
+    left: 89px;
     border-bottom: 1px dotted black;
 }
 
 .eighth .badge {
-    visibility: hidden;
+    visibility: visible;
     width: 120px;
     background-color: black;
     color: #D8BFD8;
