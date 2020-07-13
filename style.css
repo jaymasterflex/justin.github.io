@@ -1,7 +1,11 @@
 body {
-    font-size: 10pt;
+    font-size: 12pt;
     background: #2e3234;
     color: wheat;
+    font-family: 'Do Hyeon',
+    sans-serif;
+    font-family: 'PT Sans Narrow',
+    sans-serif;
 }
 
 .navbar {
@@ -79,4 +83,9 @@ ul {
     text-align: center;
     z-index: -1;
     overflow: hidden;
+}
+
+.pill {
+    position: relative;
+    top: 200px;
 }

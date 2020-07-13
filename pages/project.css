@@ -1,4 +1,9 @@
-
+body {
+    font-family: 'Do Hyeon',
+    sans-serif;
+    font-family: 'PT Sans Narrow',
+    sans-serif;
+}
 
 .coming-soon {
     position: absolute;

@@ -1,8 +1,12 @@
 
 body {
-    font-size: 10pt;
+    font-size: 12pt;
    background: #535353;
    color: wheat;
+   font-family: 'Do Hyeon',
+   sans-serif;
+   font-family: 'PT Sans Narrow',
+   sans-serif;
    }
    
    .navbar {
@@ -29,7 +33,7 @@ body {
    }
    
    .blue {
-       font-size: 25px;
+       font-size: 1.5625rem;
        color: #967bb6;
        font-weight: bold;
    }
@@ -44,7 +48,7 @@ body {
    
    h1 {
        position: absolute;
-       top: 50px;
+       top: 3.125rem;
        color: #E6E6FA;
    }
    
