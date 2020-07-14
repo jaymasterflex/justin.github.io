@@ -1,10 +1,54 @@
+
+
 body {
+    font-size: 12pt;
+    background: #535353;
+    color: wheat;
     font-family: 'Do Hyeon',
-    sans-serif;
+        sans-serif;
     font-family: 'PT Sans Narrow',
-    sans-serif;
+        sans-serif;
 }
 
+
+   .navbar {
+       width: 100%;
+       background: #535353;
+       z-index: 1;
+   }
+
+   ul {
+       background: #535353;
+   }
+
+   #nav-link {
+       color: #D8BFD8;
+   }
+
+
+   .nav-item {
+       text-align: center;
+   }
+
+
+   .navbar-nav {
+       color: #ff00ff;
+   }
+
+   .blue {
+       font-size: 1.5625rem;
+       color: #967bb6;
+       font-weight: bold;
+   }
+
+   .navbar-toggler {
+       background: #967bb6;
+   }
+
+   #sym {
+       color: #E6E6FA;
+   }
+   
 .coming-soon {
     position: absolute;
     width: 100%;
@@ -17,4 +61,5 @@ body {
 .card {
     opacity: 0.5;
     color: black;
+    background: #535353;
 }

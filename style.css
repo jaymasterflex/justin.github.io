@@ -86,6 +86,6 @@ ul {
 }
 
 .pill {
-    position: relative;
-    top: 200px;
+    position: absolute;
+    top: 250px;
 }

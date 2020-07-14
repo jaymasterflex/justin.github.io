@@ -1,4 +1,6 @@
 
+
+
 body {
     font-size: 12pt;
    background: #535353;
@@ -78,7 +80,7 @@ body {
     
     /* Position the tooltip */
     position: absolute;
-    z-index: 1;
+    
     top: -5px;
     right: 105%;
 }
@@ -104,7 +106,7 @@ body {
     
     /* Position the tooltip */
     position: absolute;
-    z-index: 1;
+    
     top: -5px;
     right: 105%;
 }
@@ -130,7 +132,7 @@ body {
 
     /* Position the tooltip */
     position: absolute;
-    z-index: 1;
+    
 }
 
 .third:hover .badge {
@@ -230,7 +232,7 @@ body {
 
     /* Position the tooltip */
     position: absolute;
-    z-index: 1;
+
 }
 
 .seventh:hover .badge {
@@ -255,7 +257,7 @@ body {
 
     /* Position the tooltip */
     position: absolute;
-    z-index: 1;
+    
 }
 
 .eighth:hover .badge {
