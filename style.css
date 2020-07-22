@@ -1,7 +1,7 @@
 body {
     font-size: 12pt;
     background: #2e3234;
-    color: wheat;
+    color: whitesmoke;
     font-family: 'Do Hyeon',
     sans-serif;
     font-family: 'PT Sans Narrow',
@@ -9,8 +9,10 @@ body {
 }
 
 .navbar {
+    position: fixed;
     width: 100%;
     background: #2e3234;
+    z-index: 1;
 }
 ul {
     background: #535353;
@@ -18,14 +20,16 @@ ul {
 
 .nav-item  {
     text-align: center;
-    
+    z-index: 1;
 }
 
 #nav-link {
     color: #D8BFD8;
+    padding-top: 2rem;
 }
 .navbar-nav {
     color: #ff00ff;
+    z-index: 1;
 }
 .blue {
     font-size: 25px;
@@ -34,6 +38,7 @@ ul {
 }
 .navbar-toggler {
     background: #967bb6;
+    z-index: 1;
 }
 
 #sym {
@@ -48,17 +53,35 @@ ul {
     border-radius: 50%;
 }
 
-.header {
-    font-size: 30px;
-    position: absolute;
-    top: 80px;
+
+.gadgets-div {
+    position: relative;
+    top: 10rem;
+    
+    
+}
+.gadgets {
+    position: relative;
+    top: 0rem;
+    width: 20rem;
+    left: 2rem;
+}
+.page-header {
+    position: relative;
+    top: 15rem;
     color: #E6E6FA;
+    font-weight: 600;
+    text-align: center;
     z-index: -1;
     padding-left: 30px;
-    overflow: hidden;
+    
 }
 
-#frontend {
+#custom-size {
+    position: absolute;
+    top: 3rem;
+    left: 5rem;
+    font-size: 20px;
     color: #D8BFD8;
 }
 .skill {
@@ -71,7 +94,7 @@ ul {
 
 .socials {
     position: absolute;
-    top: 300px;
+    top: 36rem;
     color: white;
     text-align: center;
     width: 100%;
@@ -87,5 +110,149 @@ ul {
 
 .pill {
     position: absolute;
-    top: 250px;
+    top: 32rem;
+    
+}
+.badge {
+    width: 4.5rem;
+    align-self: center;
+    background: #967bb6;
+    color: white;
+    /*add animation*/
+}
+.short-text {
+    position: absolute;
+    top: 25rem;
+    background: #515152;
+}
+
+.male-icon {
+    position: absolute;
+    top: 25rem;
+    background: #515152;
+}
+
+.about-me {
+    position: relative;
+    top: 31rem;
+    background: #D6D7E4;
+    color: #201E21;
+    line-height: 2rem;
+    align-self: center;
+    text-align: center;
+    box-shadow: 0 0 10px 10px #252227;
+    z-index: -1;
+}
+
+.js-icon {
+    position: absolute;
+    top: 0rem;
+    left: 6rem;
+}
+
+
+.react-icon {
+    position: absolute;
+    top: 10rem;
+    left: 6rem
+}
+.react-icon > p {
+       position: absolute;
+       top: 3rem;
+       font-size: 2.5rem;
+       font-weight: 600;
+       color: whitesmoke;
+       opacity: 0.7;
+       letter-spacing: 0.5rem;
+       z-index: 3;
+}
+
+.bs-icon {
+ position: absolute;
+    top: 20rem;
+    left: 6rem
+}
+.bs-icon > p {
+       position: absolute;
+       top: 3rem;
+       font-size: 2.5rem;
+       font-weight: 600;
+       color: whitesmoke;
+       letter-spacing: 0.5rem;
+       opacity: 0.7;
+       z-index: 3;
+}
+
+.developer-icon {
+    position: relative;
+    top: 30rem;
+    align-content: center;
+}
+
+.js-icon> p {
+    position: absolute;
+    top: 3rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: whitesmoke;
+    letter-spacing: 0.5rem;
+    opacity: 0.5;
+    z-index: 3;
+}
+.css-icon {
+    position: absolute;
+    top: 30rem;
+    left: 6rem
+}
+.css-icon > p {
+     position: absolute;
+     top: 3rem;
+     font-size: 2.5rem;
+     font-weight: 600;
+     color: whitesmoke;
+     opacity: 0.7;
+     letter-spacing: 0.5rem;
+     z-index: 3;
+}
+
+.html-icon {
+    position: absolute;
+    top: 40rem;
+    left: 6rem;
+}
+.html-icon > p {
+       position: absolute;
+       top: 3rem;
+       font-size: 2.5rem;
+       font-weight: 600;
+       color: whitesmoke;
+       letter-spacing: 0.5rem;
+       opacity: 0.7;
+       z-index: 3;
+}
+
+.projects {
+    position: relative;
+    top: 85rem;
+    background: rgb(150, 123, 182);
+}
+
+.card {
+    margin-bottom: 2.5rem;
+    background: #957bd3;
+    border: 0;
+    opacity: 0.7;
+}
+
+.contact-card {
+    position: relative;
+    top: 85rem;
+    text-align: center;
+}
+
+.sticky {
+    position: fixed;
+    top: 3rem;
+    width: 100%;
+    z-index: 1;
 }
