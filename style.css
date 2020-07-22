@@ -2,10 +2,7 @@ body {
     font-size: 12pt;
     background: #2e3234;
     color: whitesmoke;
-    font-family: 'Do Hyeon',
-    sans-serif;
-    font-family: 'PT Sans Narrow',
-    sans-serif;
+    font-family: 'Red Rose', cursive;
 }
 
 .navbar {
@@ -80,7 +77,7 @@ ul {
 #custom-size {
     position: absolute;
     top: 3rem;
-    left: 5rem;
+    left: 2.5REM;
     font-size: 20px;
     color: #D8BFD8;
 }
@@ -114,10 +111,11 @@ ul {
     
 }
 .badge {
-    width: 4.5rem;
+    width: 4.4rem;
     align-self: center;
     background: #967bb6;
     color: white;
+    font-size: 0.6rem;
     /*add animation*/
 }
 .short-text {
@@ -136,6 +134,7 @@ ul {
     position: relative;
     top: 31rem;
     background: #D6D7E4;
+    font-family: 'Red Rose', cursive;
     color: #201E21;
     line-height: 2rem;
     align-self: center;
@@ -175,7 +174,7 @@ ul {
 .bs-icon > p {
        position: absolute;
        top: 3rem;
-       font-size: 2.5rem;
+       font-size: 2rem;
        font-weight: 600;
        color: whitesmoke;
        letter-spacing: 0.5rem;
@@ -192,7 +191,7 @@ ul {
 .js-icon> p {
     position: absolute;
     top: 3rem;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 600;
     color: whitesmoke;
     letter-spacing: 0.5rem;
@@ -235,6 +234,7 @@ ul {
     position: relative;
     top: 85rem;
     background: rgb(150, 123, 182);
+    box-shadow: 0 0 10px 10px #252227;
 }
 
 .card {
